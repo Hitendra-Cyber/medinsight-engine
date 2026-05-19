@@ -143,6 +143,25 @@ app/main.py
 
 ---
 
+---
+
+# 📚 Documentation & Technical Guides
+
+Detailed project documentation is available below:
+
+- 📘 [Technical Build & Operational Guide (English)](./MedInsight_Guide_English.md) 
+- 📙 [Technical Build & Operational Guide (Hinglish)](./MedInsight_Guide_Hinglish.md)
+
+These guides explain:
+- System architecture
+- Streamlit state management
+- Dataset validation logic
+- Cleaning engine workflow
+- Runtime safety mechanisms
+- Step-by-step operational usage
+
+---
+
 # 📈 Future Improvements
 
 - AI-powered healthcare insights
