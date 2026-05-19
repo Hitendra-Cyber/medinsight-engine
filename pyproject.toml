@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "medinsight"
+version = "0.1.0"
+description = "A professional, beginner-friendly healthcare data analytics and EDA dashboard"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "streamlit>=1.35.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "plotly>=5.15.0",
+    "openpyxl>=3.1.0",
+    "fpdf2>=2.7.0"
+]
+
+[project.scripts]
+medinsight-ui = "app.main:main"
